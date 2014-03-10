@@ -8,8 +8,6 @@
 // -----------------------------------------------------------------------
 
 #import "HelloWorldScene.h"
-#import "IntroScene.h"
-#import "NewtonScene.h"
 
 // -----------------------------------------------------------------------
 #pragma mark - HelloWorldScene
@@ -115,14 +113,10 @@
 
 - (void)onBackClicked:(id)sender
 {
-    // back to intro scene with transition
-    [[CCDirector sharedDirector] replaceScene:[IntroScene scene]
-                               withTransition:[CCTransition transitionPushWithDirection:CCTransitionDirectionRight duration:1.0f]];
 }
 
 - (void)onNewtonClicked:(id)sender
 {
-    [[CCDirector sharedDirector] pushScene:[NewtonScene scene] withTransition:[CCTransition transitionPushWithDirection:CCTransitionDirectionLeft duration:1.0f]];
 }
 
 // -----------------------------------------------------------------------

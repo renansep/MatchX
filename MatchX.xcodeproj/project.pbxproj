@@ -211,19 +211,6 @@
 		75EAF6A618CE04BD00749124 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAF6A518CE04BD00749124 /* main.m */; };
 		75EAF6AA18CE04BD00749124 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAF6A918CE04BD00749124 /* AppDelegate.m */; };
 		75EAF6AD18CE04BD00749124 /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAF6AC18CE04BD00749124 /* HelloWorldScene.m */; };
-		75EAF6B018CE04BD00749124 /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAF6AF18CE04BD00749124 /* IntroScene.m */; };
-		75EAF6B418CE04BD00749124 /* NewtonScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAF6B318CE04BD00749124 /* NewtonScene.m */; };
-		75EAF6B718CE04BD00749124 /* NewtonSphere.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAF6B618CE04BD00749124 /* NewtonSphere.m */; };
-		75EAF6BA18CE04BD00749124 /* LightBulb.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAF6B918CE04BD00749124 /* LightBulb.m */; };
-		75EAF6BD18CE04BD00749124 /* Rope.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAF6BC18CE04BD00749124 /* Rope.m */; };
-		75EAF6BF18CE04BD00749124 /* fire.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75EAF6BE18CE04BD00749124 /* fire.plist */; };
-		75EAF6C118CE04BD00749124 /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 75EAF6C018CE04BD00749124 /* fire.png */; };
-		75EAF6C318CE04BD00749124 /* newton-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75EAF6C218CE04BD00749124 /* newton-ipadhd.plist */; };
-		75EAF6C518CE04BD00749124 /* newton-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 75EAF6C418CE04BD00749124 /* newton-ipadhd.png */; };
-		75EAF6C718CE04BD00749124 /* newton-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75EAF6C618CE04BD00749124 /* newton-ipad.plist */; };
-		75EAF6C918CE04BD00749124 /* newton-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 75EAF6C818CE04BD00749124 /* newton-ipad.png */; };
-		75EAF6CB18CE04BD00749124 /* newton.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75EAF6CA18CE04BD00749124 /* newton.plist */; };
-		75EAF6CD18CE04BD00749124 /* newton.png in Resources */ = {isa = PBXBuildFile; fileRef = 75EAF6CC18CE04BD00749124 /* newton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -663,25 +650,6 @@
 		75EAF6A918CE04BD00749124 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
 		75EAF6AB18CE04BD00749124 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		75EAF6AC18CE04BD00749124 /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
-		75EAF6AE18CE04BD00749124 /* IntroScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroScene.h; path = Classes/IntroScene.h; sourceTree = "<group>"; };
-		75EAF6AF18CE04BD00749124 /* IntroScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IntroScene.m; path = Classes/IntroScene.m; sourceTree = "<group>"; };
-		75EAF6B118CE04BD00749124 /* NewtonConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NewtonConstants.h; path = Classes/NewtonConstants.h; sourceTree = "<group>"; };
-		75EAF6B218CE04BD00749124 /* NewtonScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NewtonScene.h; path = Classes/NewtonScene.h; sourceTree = "<group>"; };
-		75EAF6B318CE04BD00749124 /* NewtonScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NewtonScene.m; path = Classes/NewtonScene.m; sourceTree = "<group>"; };
-		75EAF6B518CE04BD00749124 /* NewtonSphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NewtonSphere.h; path = Classes/NewtonSphere.h; sourceTree = "<group>"; };
-		75EAF6B618CE04BD00749124 /* NewtonSphere.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NewtonSphere.m; path = Classes/NewtonSphere.m; sourceTree = "<group>"; };
-		75EAF6B818CE04BD00749124 /* LightBulb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LightBulb.h; path = Classes/LightBulb.h; sourceTree = "<group>"; };
-		75EAF6B918CE04BD00749124 /* LightBulb.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LightBulb.m; path = Classes/LightBulb.m; sourceTree = "<group>"; };
-		75EAF6BB18CE04BD00749124 /* Rope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Rope.h; path = Classes/Rope.h; sourceTree = "<group>"; };
-		75EAF6BC18CE04BD00749124 /* Rope.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Rope.m; path = Classes/Rope.m; sourceTree = "<group>"; };
-		75EAF6BE18CE04BD00749124 /* fire.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fire.plist; path = Resources/fire.plist; sourceTree = "<group>"; };
-		75EAF6C018CE04BD00749124 /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fire.png; path = Resources/fire.png; sourceTree = "<group>"; };
-		75EAF6C218CE04BD00749124 /* newton-ipadhd.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "newton-ipadhd.plist"; path = "Resources/newton-ipadhd.plist"; sourceTree = "<group>"; };
-		75EAF6C418CE04BD00749124 /* newton-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "newton-ipadhd.png"; path = "Resources/newton-ipadhd.png"; sourceTree = "<group>"; };
-		75EAF6C618CE04BD00749124 /* newton-ipad.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "newton-ipad.plist"; path = "Resources/newton-ipad.plist"; sourceTree = "<group>"; };
-		75EAF6C818CE04BD00749124 /* newton-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "newton-ipad.png"; path = "Resources/newton-ipad.png"; sourceTree = "<group>"; };
-		75EAF6CA18CE04BD00749124 /* newton.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = newton.plist; path = Resources/newton.plist; sourceTree = "<group>"; };
-		75EAF6CC18CE04BD00749124 /* newton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newton.png; path = Resources/newton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -760,14 +728,6 @@
 				75EAF43D18CE04BB00749124 /* Info.plist */,
 				75EAF43E18CE04BB00749124 /* iTunesArtwork */,
 				75EAF44018CE04BB00749124 /* iTunesArtwork@2x */,
-				75EAF6BE18CE04BD00749124 /* fire.plist */,
-				75EAF6C018CE04BD00749124 /* fire.png */,
-				75EAF6C218CE04BD00749124 /* newton-ipadhd.plist */,
-				75EAF6C418CE04BD00749124 /* newton-ipadhd.png */,
-				75EAF6C618CE04BD00749124 /* newton-ipad.plist */,
-				75EAF6C818CE04BD00749124 /* newton-ipad.png */,
-				75EAF6CA18CE04BD00749124 /* newton.plist */,
-				75EAF6CC18CE04BD00749124 /* newton.png */,
 				75EAF42218CE04BB00749124 /* Icons */,
 			);
 			name = Resources;
@@ -1581,17 +1541,6 @@
 				75EAF6A918CE04BD00749124 /* AppDelegate.m */,
 				75EAF6AB18CE04BD00749124 /* HelloWorldScene.h */,
 				75EAF6AC18CE04BD00749124 /* HelloWorldScene.m */,
-				75EAF6AE18CE04BD00749124 /* IntroScene.h */,
-				75EAF6AF18CE04BD00749124 /* IntroScene.m */,
-				75EAF6B118CE04BD00749124 /* NewtonConstants.h */,
-				75EAF6B218CE04BD00749124 /* NewtonScene.h */,
-				75EAF6B318CE04BD00749124 /* NewtonScene.m */,
-				75EAF6B518CE04BD00749124 /* NewtonSphere.h */,
-				75EAF6B618CE04BD00749124 /* NewtonSphere.m */,
-				75EAF6B818CE04BD00749124 /* LightBulb.h */,
-				75EAF6B918CE04BD00749124 /* LightBulb.m */,
-				75EAF6BB18CE04BD00749124 /* Rope.h */,
-				75EAF6BC18CE04BD00749124 /* Rope.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1667,11 +1616,8 @@
 				75EAF41D18CE04BB00749124 /* Default@2x.png in Resources */,
 				75EAF43018CE04BB00749124 /* Icon-120.png in Resources */,
 				75EAF63418CE04BD00749124 /* LICENSE_CCBReader.txt in Resources */,
-				75EAF6C718CE04BD00749124 /* newton-ipad.plist in Resources */,
-				75EAF6C318CE04BD00749124 /* newton-ipadhd.plist in Resources */,
 				75EAF42618CE04BB00749124 /* Icon@2x.png in Resources */,
 				75EAF43818CE04BB00749124 /* Icon-Small@2x.png in Resources */,
-				75EAF6CB18CE04BD00749124 /* newton.plist in Resources */,
 				75EAF42A18CE04BB00749124 /* Icon-72@2x.png in Resources */,
 				75EAF41B18CE04BB00749124 /* Default.png in Resources */,
 				75EAF42418CE04BB00749124 /* Icon.png in Resources */,
@@ -1679,16 +1625,11 @@
 				75EAF42118CE04BB00749124 /* Default-Landscape~ipad.png in Resources */,
 				75EAF43618CE04BB00749124 /* Icon-Small.png in Resources */,
 				75EAF43418CE04BB00749124 /* Icon-Small-50.png in Resources */,
-				75EAF6BF18CE04BD00749124 /* fire.plist in Resources */,
-				75EAF6C118CE04BD00749124 /* fire.png in Resources */,
-				75EAF6C918CE04BD00749124 /* newton-ipad.png in Resources */,
 				75EAF61D18CE04BD00749124 /* LICENSE_Kazmath.txt in Resources */,
 				75EAF42818CE04BB00749124 /* Icon-72.png in Resources */,
 				75EAF57618CE04BC00749124 /* LICENSE_cocos2d.txt in Resources */,
-				75EAF6C518CE04BD00749124 /* newton-ipadhd.png in Resources */,
 				75EAF41F18CE04BB00749124 /* Default-568h@2x.png in Resources */,
 				75EAF43F18CE04BB00749124 /* iTunesArtwork in Resources */,
-				75EAF6CD18CE04BD00749124 /* newton.png in Resources */,
 				75EAF43A18CE04BB00749124 /* Icon-Spotlight-iOS7.png in Resources */,
 				75EAF42E18CE04BB00749124 /* Icon-76@2x.png in Resources */,
 				75EAF6A218CE04BD00749124 /* LICENSE_Chipmunk.txt in Resources */,
@@ -1761,7 +1702,6 @@
 				75EAF56518CE04BC00749124 /* NSThread+performBlock.m in Sources */,
 				75EAF4F018CE04BC00749124 /* CCShaderCache.m in Sources */,
 				75EAF62D18CE04BD00749124 /* CCBSequenceProperty.m in Sources */,
-				75EAF6B018CE04BD00749124 /* IntroScene.m in Sources */,
 				75EAF53418CE04BC00749124 /* CCGLView.m in Sources */,
 				75EAF4F718CE04BC00749124 /* CCSprite.m in Sources */,
 				75EAF45318CE04BB00749124 /* CCActionInterval.m in Sources */,
@@ -1772,7 +1712,6 @@
 				75EAF58918CE04BC00749124 /* OALAudioTrack.m in Sources */,
 				75EAF4CC18CE04BC00749124 /* CCProgressNode.m in Sources */,
 				75EAF4BF18CE04BC00749124 /* CCPhysicsBody.m in Sources */,
-				75EAF6BA18CE04BD00749124 /* LightBulb.m in Sources */,
 				75EAF54418CE04BC00749124 /* CCWindow.m in Sources */,
 				75EAF45918CE04BB00749124 /* CCActionProgressTimer.m in Sources */,
 				75EAF60F18CE04BD00749124 /* plane.c in Sources */,
@@ -1782,18 +1721,15 @@
 				75EAF5B918CE04BD00749124 /* OALAudioSession.m in Sources */,
 				75EAF63018CE04BD00749124 /* CCBLocalizationManager.m in Sources */,
 				75EAF51C18CE04BC00749124 /* CCTiledMapObjectGroup.m in Sources */,
-				75EAF6B718CE04BD00749124 /* NewtonSphere.m in Sources */,
 				75EAF61918CE04BD00749124 /* vec3.c in Sources */,
 				75EAF49C18CE04BC00749124 /* CCLayoutBox.m in Sources */,
 				75EAF49918CE04BC00749124 /* CCLayout.m in Sources */,
 				75EAF5BC18CE04BD00749124 /* OALSuspendHandler.m in Sources */,
 				75EAF61B18CE04BD00749124 /* vec4.c in Sources */,
 				75EAF52D18CE04BC00749124 /* CCDirectorIOS.m in Sources */,
-				75EAF6B418CE04BD00749124 /* NewtonScene.m in Sources */,
 				75EAF50418CE04BC00749124 /* CCSpriteFrameCache.m in Sources */,
 				75EAF5C318CE04BD00749124 /* mach_timing.c in Sources */,
 				75EAF5A718CE04BC00749124 /* ALListener.m in Sources */,
-				75EAF6BD18CE04BD00749124 /* Rope.m in Sources */,
 				75EAF48018CE04BC00749124 /* ccFPSImages.m in Sources */,
 				75EAF55718CE04BC00749124 /* ccUtils.c in Sources */,
 				75EAF4C818CE04BC00749124 /* CCPhysicsShape.m in Sources */,
